@@ -194,7 +194,7 @@
     localStorage.setItem("list", JSON.stringify(items));
   }
 
-  // ****** Setup Items **********
+  // ****** Setup Items ******
 
   function setupItems() {
     let items = getLocalStorage();
