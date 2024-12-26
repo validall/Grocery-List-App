@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Application UI -->
+    <section class="section-center">
+      <form class="shopping-form">
+        <p class="alert"></p>
+        <h3>Shopping List</h3>
+        <div class="form-control">
+          <input
+            type="text"
+            id="shopping"
+            class="shopping"
+            placeholder="e.g. Milk"
+          />
+          <button type="submit" class="submit-btn">Submit</button>
+          <button type="button" class="clear-btn">Clear List</button>
+        </div>
+      </form>
+      <div class="shopping-container">
+        <div class="shopping-list"></div>
+      </div>
+    </section>
+
+    <!-- Main Script -->
+    <script src="app.js"></script>
+  </body>
+</html>
